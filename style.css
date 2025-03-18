@@ -1,0 +1,65 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart {
+    width:500px;
+    height: 500px;
+    border-radius: 50%;
+    background: conic-gradient(
+        yellow 0% var(--design),
+        red var(--design) calc(var(--front-end) + var(--design)),
+        blue calc(var(--front-end) + var(--design))
+    );
+}
+
+
+/* --------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------- */
+
+/* .chart {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+  } */
+  
+  /* Common styles for all slices */
+  /* .slice {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    transform-origin: 100% 50%;
+    transition: transform 0.3s;
+  } */
+  
+  /* Specific slice styles */
+  /* .design {
+    background-color: yellow;
+    transform: rotate(0deg);
+  }
+  
+  .front-end {
+    background-color: red;
+    transform: rotate(162deg); Adjust angles as needed
+  }
+  
+  .back-end {
+    background-color: blue;
+    transform: rotate(234deg); Adjust angles as needed
+  }
+   */
+  /* Hover effects */
+  /* .slice:hover {
+    transform: scale(1.05);
+  } */
+  /* --------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------- */
